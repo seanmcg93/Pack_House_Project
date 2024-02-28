@@ -13,6 +13,7 @@ The goal is to have multiple meters for different types of sensors and to displa
 1. Install dependencies:
    ```bash
    pip install ttkbootstrap pillow
+   pip install RPi.GPIO
 
 
 
