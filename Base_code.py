@@ -4,7 +4,7 @@ import tkinter as tk
 from ttkbootstrap import Style, Meter
 import RPi.GPIO as GPIO
 import time
-
+Image.CUBIC= Image.BICUBIC
 
 
 
@@ -32,7 +32,7 @@ GPIO.add_event_detect(BEAM_PIN, GPIO.BOTH, callback=break_beam_callback)
 
 window = tk.Tk()
 window.title("SCOTT FARM'S CASE COUNTER")
-window.geometry("1500x700")
+window.geometry("1080x720")
 window.wm_overrideredirect(False)
 window.state("normal")
 
@@ -44,9 +44,9 @@ meter = Meter(
     padding=250,
     amountused=count,
     metertype="semi",
-    textfont="size 50 italic bold",
+    textfont="size 35 italic bold",
     subtext="TOTAL CASES",
-    subtextfont="size 20",
+    subtextfont="size 15",
     subtextstyle="info",
     meterthickness=50,
     bootstyle="info",
