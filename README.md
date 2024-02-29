@@ -22,7 +22,7 @@ The goal is to have multiple meters for different types of sensors and to displa
 git clone https://github.com/seanmcg93/Pack_House_Project
 
 
-Usage
+Usage\n
 1.Run the script sensor_monitor.py.
 2.The script will create a GUI window displaying the sensor data.
 3.Each sensor's data will be shown on a separate meter.
