@@ -2,6 +2,7 @@
 
 This project aims to create a system for monitoring sensors using Raspberry Pi. 
 The goal is to have multiple meters for different types of sensors and to display the sensor data on a web app dashboard.
+We will first need to convert the Tkinter GUI into a simillar flask webpage.
 
 ## Dependencies
 - ttkbootstrap
@@ -22,7 +23,7 @@ The goal is to have multiple meters for different types of sensors and to displa
 git clone https://github.com/seanmcg93/Pack_House_Project
 
 
-Usage\n
+Usage
 1.Run the script sensor_monitor.py.
 2.The script will create a GUI window displaying the sensor data.
 3.Each sensor's data will be shown on a separate meter.
